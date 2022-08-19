@@ -1,8 +1,9 @@
-import Myself from "./components/Myself";
-import MyFood from "./components/MyFood";
-import Counter from "./components/Counter";
+// import Myself from "./components/Myself";
+// import MyFood from "./components/MyFood";
+// import Counter from "./components/Counter";
 import TaskManager from "./components/TaskManager";
-import TaskItem from "./components/TaskItem";
+// import TaskItem from "./components/TaskItem";
+import Form from "./components/Form"
 
  
  function App(){
@@ -17,9 +18,10 @@ import TaskItem from "./components/TaskItem";
       
         <MyFood name="beans and plantain" origin="Takoradi" nickname="Red Red"/>
         <Counter/> */}
-        <TaskManager/>
+        {/* <TaskManager/> */}
         {/* <TaskItem/> */}
-
+       {/* <TaskItem/> */}
+       <Form/>
       </div>
   )
 };
